@@ -12,5 +12,14 @@ def sum_distance(first, second):
     return result
 
 
-x = sum_distance(11, 11)
-print(x)
+def trim_and_repeat(my_string, offset=0, repetitions=1):
+    result = my_string[offset:]
+    return result * repetitions
+
+
+hw1 = sum_distance(1, 11)
+print(hw1)
+
+hw2 = trim_and_repeat("Super-puper-string")
+print(hw2)
+
